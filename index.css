@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#gameBoard {
+  border: 3px solid black;
+  margin: 10px auto;
+}
+.wrapper {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  font-size: 150%;
+  background: lightgray;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.modal .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.modal > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 551px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 60%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 5%;
+}
+
+.close-btn {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 1.2rem;
+  height: 40px;
+  width: 40px;
+  line-height: 25px;
+  padding: 5px;
+}
+
+.close-btn:hover {
+  background-color: #ccc;
+}

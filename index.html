@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <title>TicTacToe</title>
+  </head>
+  <body onload="initGame()">
+    <!-- Header -->
+    <div class="container">
+      <h1 id="score1"></h1>
+      <h1 id="score2"></h1>
+    </div>
+
+    <!-- TicTacToe Board-->
+    <div class="wrapper">
+      <canvas id="gameBoard"></canvas>
+    </div>
+
+    <!-- Popup Message-->
+    <div class="modal">
+      <span class="helper"></span>
+      <div>
+        <span class="close-btn">X</span>
+        <p class="modal-text"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
