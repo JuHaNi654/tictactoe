@@ -365,13 +365,6 @@ function show(value = null) {
     }
     $(".modal").show()
 
-    /**
-     * after 3s close modal
-     */
-    setInterval(function () {
-        $(".modal").hide()
-        initGame()
-    }, 3000)
 }
 
 /**
