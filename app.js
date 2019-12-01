@@ -160,6 +160,7 @@ function checkWinCondition(player) {
         }
     }
     if (rounds === 9) {
+        gameEnd = true
         show()
     }
 }
